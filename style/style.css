@@ -28,6 +28,13 @@
     gap: 30px;
 
 }
+.header{
+    background-image: url("../asset/header_bg.png"),url("../asset/banner.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+    margin: 2px 2px;
+    padding: 1px;
+}
 .btn{
     /* Rectangle 1 */
     /* position: absolute; */
@@ -41,9 +48,28 @@
 
     background: rgb(253, 110, 10);
     color: rgb(255, 255, 255);
-    border-color: rgb(35, 35, 219)
+    border-color: rgb(253, 110, 10)
     ;
 }
 li{
     margin: 20px 20px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+/* nav .banner .img{
+    background-image: url("asset/header_bg.png");
+} */
+.btn-contact{
+    width: 100px;
+    height: 34px;
+    left: 420px;
+    border-radius: 5px;
+    background: rgb(245, 243, 241);
+    color: rgb(253, 110, 10);
+    border-color: rgb(253, 110, 10);
+
 }
