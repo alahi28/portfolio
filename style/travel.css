@@ -1,0 +1,32 @@
+.container{
+    /* height:800; */
+    /* width: 250; */
+    width: 650px;
+    height: 250px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.father{
+    /* display: inline; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 1px; */
+}
+.list{
+    /* display: inline; */
+    list-style: none;
+}
+.container-1{
+    background-image: url("../asset/travel/saint_martin_g.JPG");
+    width: 650px;
+    height: 250px;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+     background-size: cover; 
+     padding: 2px 2px;   
+     border-radius: 10px ; 
+     border: 2px solid rgb(0, 255, 128);  
+     box-shadow:2px 2px yellow      
+}
