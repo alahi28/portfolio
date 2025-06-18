@@ -75,6 +75,8 @@ li{
 
 }
 .about{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 248, 243);
     margin: 130px 150px;
     text-align: center;
@@ -82,7 +84,8 @@ li{
 }
 .designation{
     display: flex;
-    justify-content: space-around;
+    justify-content:safe;
+    gap: 25px;
 }
 .tiitle{
     color: rgb(2, 0, 0);
@@ -229,4 +232,7 @@ h1{
 
     
     
+}
+.hide{
+    display: none;
 }

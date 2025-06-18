@@ -6,10 +6,47 @@
     <title>A.Rahman's Portfolio</title>
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/0a377b763e.js" crossorigin="anonymous"></script>
+    <style>
+        @media screen and (max-width:576px){
+
+            .about,.designation,.section{
+                padding: 10px 10px;
+                background-color: greenyellow;
+                flex-direction: column;
+                margin: 20px 20px;
+                 
+
+            }
+            .do{
+                padding: 0px 10px;
+            }
+            .cards{
+                flex-direction: column;
+            }
+            .f-card{
+                width: 200px;
+                height: auto;
+                padding: 2px 2px;
+            }
+            .f-heading{
+                font-weight: 220px;
+                padding: 0 2px;
+            }
+            .ul,.banner{
+                flex-direction: column-reverse;
+            }
+            .nav,.banner{
+                margin: 10px 10px;
+                
+            }
+            
+           
+        }
+    </style>
 </head>
 <body>
 
-    <header class="header">
+    <header class="header ">
         <nav class="nav">
         <h1 class="name">Md Abdur R<span class="splite-font">a</span>hman</h1>
 
@@ -37,7 +74,7 @@
     </header>
 
     <section >
-        <div class="about">
+        <div class="about ">
             <h1>About Me</h1>
             <p class="description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
             <div class="designation">
@@ -64,8 +101,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="do">
+    <section >
+        <div class="do ">
             <p class="i-do">What I do</p>
              <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
 
@@ -74,7 +111,7 @@
     </section>
 
     <section>
-        <div class="cards">
+        <div class="cards ">
             <div class="card">
                 <img src="asset/icons/js.png" alt="">
                 <p class="title-card">Vanilla JavaScript</p>
@@ -101,15 +138,15 @@
         </div>
     </section>
 
-    <div class="f-heading">
+    <div class="f-heading ">
         <p>A summary of My Resume</p>
     </div>
 
     <section>
-        <div class="section">
+        <div class="section ">
            
             <div>
-                <p class="f-title">My Education</p>
+                <p class="f-title ">My Education</p>
                 <ul class="f-ul">
                     <li>
                         <div class="f-card">
@@ -141,7 +178,10 @@
                 </ul>
             </div>
             <div>
-                <p class="f-title">My Experience</p>
+                <div class="my">
+                    <p class="f-title">My Experience</p>
+                </div>
+                
 
                 <ul class="f-ul">
 
@@ -180,8 +220,8 @@
         </div>
     </section>
 
-    <div class="d-btn">
-        <button class="btn">Download CV</button>
+    <div class="d-btn  ">
+        <button class="btn  ">Download CV</button>
     </div>
 
     
